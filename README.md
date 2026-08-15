@@ -6,6 +6,11 @@
 
 用户会经历 12 个数字生活场景，最终签收一份“夜班星官档案”。
 
+## 在线体验
+
+- Vercel：[https://xingmo-night-watch.vercel.app](https://xingmo-night-watch.vercel.app)
+- GitHub：[https://github.com/epochjdaily/xingmo-night-watch](https://github.com/epochjdaily/xingmo-night-watch)
+
 ## 创意设定
 
 星貘是一只在宇宙档案馆值夜的小貘。它专门吞掉多余的通知噪音，再把人类没来得及回复的情绪分装进流星瓶。

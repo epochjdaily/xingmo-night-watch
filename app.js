@@ -294,7 +294,7 @@ async function downloadCard() {
     ctx.fillStyle = '#100d2b'; ctx.font = '900 22px Microsoft YaHei, sans-serif'; ctx.fillText('TONIGHT’S MICRO MISSION / 今夜微型星任务', 108, 1110)
     ctx.font = '800 30px Microsoft YaHei, sans-serif'; wrapText(ctx, item.mission, 108, 1165, 850, 44, 2)
     ctx.fillStyle = '#f7f2e7'; ctx.font = '600 22px Microsoft YaHei, sans-serif'; ctx.fillText('旧星图 × 新型掉线方式', 76, 1330)
-    ctx.textAlign = 'right'; ctx.fillText('epochjdaily.github.io/xingmo-night-watch', 1004, 1330)
+    ctx.textAlign = 'right'; ctx.fillText('xingmo-night-watch.vercel.app', 1004, 1330)
     canvas.toBlob(blob => {
       const url = URL.createObjectURL(blob); const link = document.createElement('a'); link.href = url; link.download = `我的夜班星官-${item.name}.png`; link.click(); setTimeout(() => URL.revokeObjectURL(url), 1000); showToast('星档卡已下载')
     }, 'image/png')
